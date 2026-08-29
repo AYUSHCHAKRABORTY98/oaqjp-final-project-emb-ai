@@ -12,7 +12,7 @@ def emotiondetector():
     print(text_to_analyze)
     response = ed.emotion_detector(text_to_analyze)
     #response=ed.emotion_detector("check this code")
-    response ={'anger': 0.077001415, 'disgust': 0.041197587, 'fear': 0.2144536, 'joy': 0.16099091, 'sadness': 0.16579382, 'dominant_emotion': 'fear'}
+    #response ={'anger': 0.077001415, 'disgust': 0.041197587, 'fear': 0.2144536, 'joy': 0.16099091, 'sadness': 0.16579382, 'dominant_emotion': 'fear'}
     formatted_response = (
         f"For the given statement, the system response is "
         f"'anger': {response['anger']}, "
